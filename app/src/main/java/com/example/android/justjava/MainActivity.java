@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
-        
+
     }
 
     private int calculatePrice(boolean addCream, boolean addChoco) {
